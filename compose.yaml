@@ -36,7 +36,7 @@ services:
       dockerfile: docker/Dockerfile
     container_name: env-manager-migrate
     env_file: .env
-    command: uv run alembic upgrade head
+    command: sleep 20s; uv run alembic upgrade head
     networks:
       - backend
     depends_on:
