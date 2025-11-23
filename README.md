@@ -43,3 +43,6 @@ make start
 ```bash
 docker compose -f compose.yaml --env-file ./.env up -d
 ```
+- Открыть веб-интерфейс по адресу http://localhost:8421
+- Установить CLI-утилиту. Скачать последнюю версию с [релизов](https://github.com/Finder42Lab/EnvManagerCLI/releases)
+- Добавить в переменные окружения путь к утилите. Выдать права на исполнение
