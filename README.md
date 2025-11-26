@@ -50,7 +50,7 @@ docker compose -f compose.yaml --env-file ./.env up -d
 ## Использование CLI-утилиты
 Для генерации env файла для проекта выполните команду:
 ```bash
-emn switch <project_name>
+emn switch <project_id>
 ```
 
 При наличии .env файла в текущей директории, будет создана его копия .env.backup.
